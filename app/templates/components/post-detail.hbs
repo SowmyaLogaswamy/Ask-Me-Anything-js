@@ -1,2 +1,10 @@
 <h1>{{post.question}}</h1> <br> {{post.note}}<h5> - by <em>{{post.author}}</em></h5><br>
-<button {{action 'delete' post}}>Delete</button>
+
+
+<h2> Answers </h2>
+<ul>
+  {{#each post.comments as |comment|}}
+    {{comment-tile comment=comment}}
+  {{/each}}
+</ul>
+<button {{action 'delete' post}}>Delete Question</button>
