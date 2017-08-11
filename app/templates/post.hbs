@@ -1,5 +1,5 @@
 <h1>{{post.question}}</h1> <br> {{post.note}}<h5> <em>{{post.author}}</em></h5><br>
-{{post-detail post=model destroyPost="destroyPost"}}<br>
+{{post-detail post=model destroyPost="destroyPost" destroyComment="destroyComment"}}<br>
 {{update-post post=model update="update"}}
 
 {{new-comment saveComment="saveComment" post=model}}
