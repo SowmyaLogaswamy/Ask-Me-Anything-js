@@ -4,6 +4,8 @@
 
 <ul>
   {{#each model as |post|}}
-     <li><h3>{{post.question}}</h3> <br> {{post.note}} <br>by <em>{{post.author}}</em> </li>
+     {{post-tile post=post destroyPost="destroyPost"}}
   {{/each}}
 </ul>
+
+{{new-post savePost2 = "savePost3"}}
