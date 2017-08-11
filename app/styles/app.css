@@ -24,8 +24,10 @@ em {
 }
 
 .questions {
-  border:2px solid black;
+  border: solid ;
   border-color: #57c19e;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .all-answers {
@@ -45,9 +47,23 @@ em {
 #author {
   border: solid;
   border-color: #57c19e;
-
 }
+
 #answer {
+  border: solid;
+  border-color: #57c19e;
+  width: 400px;
+  height: 150px;
+}
+
+#question {
+  border: solid;
+  border-color: #57c19e;
+  width: 400px;
+  height: 150px;
+}
+
+#note {
   border: solid;
   border-color: #57c19e;
   width: 400px;
