@@ -1,4 +1,5 @@
 <li>
   <h3>{{post.question}}</h3> <br> {{post.note}} <br>by <em>{{post.author}}</em><br>
+  {{update-post post=post update="update"}}
   <button {{action 'delete' post}}>Delete Question</button>
 </li>
