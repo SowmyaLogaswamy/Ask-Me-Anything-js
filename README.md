@@ -1,7 +1,12 @@
-# ask-anythings
+# Ask-Me-Anything
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _JavaScript - Week2 independent project, 08/11/2017_
+
+#### By _**Sowmya Devi Logaswamy**_
+
+## Description
+
+Ask-Me-Anything is a crowd sourced website for Senior Developers & Tech Pros. The goal of this website  is to create a question and answer message board, similar to Reddit, Quora, StackOverflow or other such sites. Users should be able to submit a question, then other users can respond with answers.
 
 ## Prerequisites
 
@@ -14,8 +19,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ask-anythings`
+* `git clone <https://github.com/SowmyaLogaswamy/Ask-Me-Anything-js.git>` this repository
+* `cd Ask-Me-Anything-js`
 * `npm install`
 
 ## Running / Development
@@ -37,9 +42,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
@@ -48,3 +50,19 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+### Known Bugs
+
+No known bugs yet.
+
+## Technologies Used
+
+_javaScript, Ember, Firebase, bootstrap_
+
+_API - Ask-anythings_Firebase_
+
+### License
+
+*MIT*
+
+Copyright (c) 2017 **_Sowmya Devi Logaswamy_**
