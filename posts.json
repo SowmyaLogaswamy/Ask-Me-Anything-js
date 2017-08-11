@@ -10,5 +10,12 @@
   "author": "Clara Bindu",
   "question": "What is the difference between UI and UX design?",
   "note": "Am always confused between these two. I need clarification regarding this."
-}]
+}],
+"comments": [{
+    "author": "Kumar",
+    "answer": "There is an approach called working backwards that is widely used at Amazon. We try to work backwards from the customer, rather than starting with an idea for a product and trying to bolt customers onto it. While working backwards can be applied to any specific product decision, using this approach is especially important when developing new products or features."
+  }, {
+    "author": "Karthi",
+    "answer": "Frankly, from an e-com expertise perspective, Amazon’s retargeting and sales funnels have been woefully under-developed. They are finally pinging browsers to go back to the listings they've been viewing."
+  }]
 }
