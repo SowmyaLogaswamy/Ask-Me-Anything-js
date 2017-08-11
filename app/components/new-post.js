@@ -7,13 +7,13 @@ export default Ember.Component.extend({
      this.set('addNewPost', true);
    },
    savePost1() {
-      var params = {
-        author: this.get('author'),
-        question: this.get('question'),
-        note: this.get('note'),
-      };
-      this.set('addNewPost', false);
-      this.sendAction('savePost2', params);
-    }
- }
+    var params = {
+      author: this.get('author'),
+      question: this.get('question'),
+      note: this.get('note'),
+    };
+    this.set('addNewPost', false);
+    this.sendAction('savePost2', params);
+   }
+  }
 });

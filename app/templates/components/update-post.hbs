@@ -6,21 +6,17 @@
       <label for="author">Your Name</label>
       {{input value=author id="author" placeholder=post.author}}
     </div>
-
     <div class="form-group">
       <label for="question">Question</label>
       {{input value=question id="question" placeholder=post.question}}
     </div>
-
     <div class="form-group">
       <label for="note">Notes</label>
       {{input value=note id="note" placeholder=post.note}}
     </div>
-
     <button class= "btn" {{action 'update' post}}>Submit</button>
   </form>
 </div>
-
 {{else}}
   <button class="btn" {{action 'updatePostForm'}}>Change question</button><br>
-  {{/if}}
+{{/if}}
