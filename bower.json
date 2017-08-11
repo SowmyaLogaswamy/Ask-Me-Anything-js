@@ -1,0 +1,17 @@
+{
+  "name": "ask-anythings",
+  "description": "Small description for ask-anythings goes here",
+  "main": ".eslintrc.js",
+  "authors": [
+    "Sowmya Logawamy <sowmyalogaswamy@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

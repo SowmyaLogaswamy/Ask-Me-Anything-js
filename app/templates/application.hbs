@@ -1,5 +1,32 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div id="container" class="container">
+  <header class="jumbotron">
+    <h1><em>Tech-World</em></h1>
+    <h2><em>World of questions and answers</em></h2>
+  </header>
+    <div class="row">
 
-{{outlet}}
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            {{#link-to 'index' class="navbar-brand"}}Tech-world{{/link-to}}
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+              <li class="active">{{#link-to 'about'}}{{fa-icon "thumbs-up"}}{{/link-to}}</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              {{outlet}}
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        <hr>
+        <footer>
+          <p>{{#link-to 'about'}}{{fa-icon "thumbs-up"}} {{/link-to}}</p>
+        </footer>
+      </div>

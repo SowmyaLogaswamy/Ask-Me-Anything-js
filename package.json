@@ -5,18 +5,18 @@
   "license": "MIT",
   "author": "",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember test"
   },
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
+    "ember-bootstrap": "^1.0.0-rc.1",
     "ember-cli": "2.13.2",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.0.0",
@@ -31,6 +31,7 @@
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "^2.13.0",
     "ember-export-application-global": "^2.0.0",
+    "ember-font-awesome": "^3.0.5",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.13.0",
@@ -40,5 +41,7 @@
   "engines": {
     "node": ">= 4"
   },
-  "private": true
+  "private": true,
+  "main": ".eslintrc.js",
+  "dependencies": {}
 }

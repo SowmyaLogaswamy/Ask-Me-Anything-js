@@ -1,0 +1,9 @@
+<h1> Post your questions here!</h1>
+
+<p>We hope you find exactly what you're looking for in this website</p>
+
+<ul>
+  {{#each model as |post|}}
+     <li><h3>{{post.question}}</h3> <br> {{post.note}} <br>by <em>{{post.author}}</em> </li>
+  {{/each}}
+</ul>
