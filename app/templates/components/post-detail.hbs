@@ -1,10 +1,12 @@
 <h1>{{post.question}}</h1> <br> {{post.note}}<h5> - by <em>{{post.author}}</em></h5><br>
 
 
-<h2> Answers </h2>
+<h3> All Answers </h3>
+<div class = "all-answers">
 <ul>
   {{#each post.comments as |comment|}}
     {{comment-tile comment=comment destroyComment="destroyComment"}}
   {{/each}}
 </ul>
-<button {{action 'delete' post}}>Delete Question</button>
+</div>
+<button class= "btn" {{action 'delete' post}}>Delete Question</button>

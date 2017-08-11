@@ -4,4 +4,52 @@ ul {
 
 .jumbotron {
   height: 200px;
+  color: #57c19e;
+  font-style: italic;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+  color: #57c19e;
+}
+.btn {
+  color: #57c19e;
+  background-color: #efefef;
+}
+em {
+  color: #57c19e;
+}
+
+.questions {
+  border:2px solid black;
+  border-color: #57c19e;
+}
+
+.all-answers {
+  border: solid;
+  border-color: #57c19e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.answers {
+  border: solid;
+  border-color: #57c19e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#author {
+  border: solid;
+  border-color: #57c19e;
+
+}
+#answer {
+  border: solid;
+  border-color: #57c19e;
+  width: 400px;
+  height: 150px;
 }

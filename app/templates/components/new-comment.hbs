@@ -1,6 +1,6 @@
 {{#if addNewComment}}
-<h1>New Comment</h1>
-  <div>
+<h3>Leave your reply here!</h3>
+  <div class="answers">
     <form>
       <div class="form-group">
         <label for="author">Author</label>
@@ -10,9 +10,9 @@
         <label for="answer">Answer</label>
         {{input value=answer id="answer"}}
       </div>
-      <button {{action 'saveComment'}}>Submit</button>
+      <button class= "btn" {{action 'saveComment'}}>Submit</button>
     </form>
   </div>
 {{else}}
-  <br><button {{action 'commentFormShow'}}>Answer Here!</button>
+  <br><button class= "btn" {{action 'commentFormShow'}}>Answer Here!</button>
 {{/if}}

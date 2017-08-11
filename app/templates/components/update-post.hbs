@@ -1,6 +1,6 @@
 {{#if updatePostForm}}
 <h4><em>Hello!! {{post.author}}, you could update your question here!</em></h4>
-<div>
+<div class="questions">
   <form>
     <div class="form-group">
       <label for="author">Your Name</label>
@@ -17,11 +17,10 @@
       {{input value=note id="note" placeholder=post.note}}
     </div>
 
-    <button {{action 'update' post}}>Submit</button>
+    <button class= "btn" {{action 'update' post}}>Submit</button>
   </form>
 </div>
 
 {{else}}
-  <button {{action 'updatePostForm'}}>Change question</button><br>
-
+  <button class="btn" {{action 'updatePostForm'}}>Change question</button><br>
   {{/if}}

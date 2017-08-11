@@ -34,7 +34,7 @@ export default Ember.Route.extend({
     },
     destroyComment(comment) {
       comment.destroyRecord();
-      this.transitionTo('index');
+      this.transitionTo('/post/:post_id');
     }
 }
 });

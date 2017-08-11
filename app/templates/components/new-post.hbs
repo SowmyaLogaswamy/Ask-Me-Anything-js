@@ -1,6 +1,6 @@
 {{#if addNewPost}}
 <h1>Create your question here!</h1>
-<div>
+<div class="questions">
   <form>
     <div class="form-group">
       <label for="author">Your Name</label>
@@ -17,10 +17,10 @@
       {{input value=note id="note"}}
     </div>
 
-    <button {{action 'savePost1'}}>Submit</button>
+    <button class= "btn" {{action 'savePost1'}}>Submit</button>
   </form>
 </div>
 
 {{else}}
-  <button {{action 'postFormShow'}}>Ask a Question!</button>
+  <button class="btn" {{action 'postFormShow'}}>Ask a Question!</button>
 {{/if}}
