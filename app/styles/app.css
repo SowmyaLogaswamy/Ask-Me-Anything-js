@@ -47,6 +47,8 @@ em {
 #author {
   border: solid;
   border-color: #57c19e;
+  width: 400px;
+  height: 40px;
 }
 
 #answer {
@@ -67,5 +69,5 @@ em {
   border: solid;
   border-color: #57c19e;
   width: 400px;
-  height: 150px;
+  height: 120px;
 }
