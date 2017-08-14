@@ -1,5 +1,10 @@
 # Ask-Me-Anything
 
+<a href="https://aimeos.org/">
+    <img src="https://static1.squarespace.com/static/54363c5ae4b0e1fd29fbd35e/t/55c309a4e4b0daf32fc8c724/1438845349836/?format=750w" alt="Tech world image" align="right" height="60" />
+</a>
+
+
 #### _JavaScript - Week2 independent project, 08/11/2017_
 
 #### By _**Sowmya Devi Logaswamy**_
@@ -65,4 +70,4 @@ _API - Ask-anythings_Firebase_
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Sowmya Logaswamy](http://mts.io) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Sowmya Logaswamy](https://github.com/SowmyaLogaswamy?tab=repositories) has waived all copyright and related or neighboring rights to this work.
