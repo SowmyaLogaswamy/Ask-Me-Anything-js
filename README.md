@@ -10,6 +10,7 @@
 
 Ask-Me-Anything is a crowd sourced website for Senior Developers & Tech Pros. The goal of this website  is to create a question and answer message board, similar to Reddit, Quora, StackOverflow or other such sites. Users should be able to submit a question, then other users can respond with answers.
 
+## Planning
 
 1. Configuration/dependencies
   * Emberfire, firebase db, moment
@@ -124,4 +125,4 @@ _API - Ask-anythings_Firebase_
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Sowmya Logaswamy](https://github.com/SowmyaLogaswamy?tab=repositories) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Sowmya Devi Logaswamy](https://github.com/SowmyaLogaswamy?tab=repositories) has waived all copyright and related or neighboring rights to this work.
