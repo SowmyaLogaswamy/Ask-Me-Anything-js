@@ -63,6 +63,6 @@ _API - Ask-anythings_Firebase_
 
 ### License
 
-*MIT*
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Copyright (c) 2017 **_Sowmya Devi Logaswamy_**
+To the extent possible under law, [Sowmya Logaswamy](http://mts.io) has waived all copyright and related or neighboring rights to this work.
