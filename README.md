@@ -1,9 +1,6 @@
-# Ask-Me-Anything
-
-<a href="https://aimeos.org/">
+# Ask-Me-Anything <a href="https://aimeos.org/">
     <img src="https://static1.squarespace.com/static/54363c5ae4b0e1fd29fbd35e/t/55c309a4e4b0daf32fc8c724/1438845349836/?format=750w" alt="Tech world image" align="right" height="60" />
 </a>
-
 
 #### _JavaScript - Week2 independent project, 08/11/2017_
 
