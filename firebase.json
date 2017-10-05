@@ -1,0 +1,9 @@
+{
+  "firebase": "ask-me-anythings",
+  "public": "dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
